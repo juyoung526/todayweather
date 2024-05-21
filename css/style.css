@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+@font-face {
+    font-family: 'Hahmlet-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Hahmlet-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Hahmlet-Regular';
+    height: 100vh;
+    background-image: linear-gradient(to bottom, skyblue, lightgray);
+    background-repeat: no-repeat;
+}
+
+section {
+    width: 500px;
+    height: 700px;
+    border-radius: 30px;
+    background-color: rgba(246, 246, 253, 0.5);
+    box-sizing: border-box;
+    margin: 100px auto;
+    padding: 50px;
+}
+
+.con1 p {
+    margin: 10px 0px;
+}
+
+#today {
+    font-size: 20px;
+}
+
+.cityBar {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#place {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 11px;
+}
+
+
+
+#temp {
+    width: 100%;
+    font-size: 100px;
+    text-align: center;
+}
+
+.maxMin {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+
+}
+
+.on {
+    background-color: lightgrey;
+    border: none;
+}
